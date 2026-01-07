@@ -27,7 +27,7 @@ class pos:
             
     #this function is use to create text fils
     def make_pd(self,number):
-        filename = f"./pdf/bill{number}.txt"
+        filename = f"./pdf/bill{number}.txt" #add you're file or file path you wont to should acreate a bll
         self.file = open(filename,"x")
     def make_pdf(self):
         if len(self.curent_items)<6:
@@ -74,3 +74,4 @@ while True:
         m1.make_pd(number)
         
         
+
