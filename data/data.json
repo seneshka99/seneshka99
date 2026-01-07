@@ -1,0 +1,38 @@
+{
+  "store_info": {
+    "store_name": "FreshMart Central",
+    "location": "Aisle 4, Section B"
+  },
+  "products": [
+    {
+      "barcode": "01234567890",
+      "name": "Organic Bananas",
+      "category": "Produce",
+      "price_per_unit": 0.59,
+      "unit": "kg",
+      "stock_quantity": 120,
+      "expiry_date": "2026-01-10",
+      "is_taxable": false
+    },
+    {
+      "barcode": "509876543210",
+      "name": "Whole Milk (2L)",
+      "category": "Dairy",
+      "price_per_unit": 3.49,
+      "unit": "bottle",
+      "stock_quantity": 45,
+      "expiry_date": "2026-01-15",
+      "is_taxable": true
+    },
+    {
+      "barcode": "504433221100",
+      "name": "Chocolate Digestives",
+      "category": "Snacks",
+      "price_per_unit": 2.10,
+      "unit": "packet",
+      "stock_quantity": 80,
+      "expiry_date": "2026-12-01",
+      "is_taxable": true
+    }
+  ]
+}
